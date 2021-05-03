@@ -3,7 +3,7 @@ from random import choice, randint
 
 
 class Target(Turtle):
-    colors = ['green', 'orange', 'yellow', 'pink', 'purple', 'gold', 'gray', 'brown', 'white']
+    colors = ['green', 'blue', 'yellow', 'pink', 'purple', 'gold', 'gray', 'red', 'white']
 
     def __init__(self, x, y):
         super().__init__()
@@ -19,7 +19,7 @@ class Player(Turtle):
     def __init__(self):
         super().__init__()
         self.shapesize(1, 5)
-        self.color('blue')
+        self.color('green')
         self.shape('square')
         self.penup()
         self.goto(0, -300)
